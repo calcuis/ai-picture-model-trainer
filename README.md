@@ -25,7 +25,7 @@ Model Architecture Functions:
 
 Main Script:
 - Parses command-line arguments using argparse.
-- Prepares the dataset from a CSV file containing image paths and other attributes.
+- Prepares the dataset from a CSV file containing image paths and other attributes (i.e., unzip `data.zip` file).
 - Creates instances of the generator and discriminator models.
 - Defines optimizers and loss function for training.
 - Trains the GAN using the `train` function.
